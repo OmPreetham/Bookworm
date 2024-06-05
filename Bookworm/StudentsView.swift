@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  StudentsView.swift
 //  Bookworm
 //
 //  Created by Om Preetham Bandi on 6/5/24.
@@ -8,7 +8,7 @@
 import SwiftData
 import SwiftUI
 
-struct ContentView: View {
+struct StudentsView: View {
     @Environment(\.modelContext) var modelContext
     @Query var students: [Student]
 
@@ -36,5 +36,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    StudentsView()
 }
