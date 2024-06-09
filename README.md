@@ -11,8 +11,9 @@ Bookworm is a SwiftUI application that allows users to keep track of the books t
 ## Screenshots
 
 ![Home Screen](screenshots/home-screen.png)
-![Book Detail](screenshots/book-detail.png)
 ![Add Book](screenshots/add-book.png)
+![Book Detail](screenshots/book-detail.png)
+![Book Edit](screenshots/book-edit.png)
 
 ## Requirements
 
@@ -23,20 +24,20 @@ Bookworm is a SwiftUI application that allows users to keep track of the books t
 ## Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/bookworm.git
-    ```
+   ```sh
+   git clone https://github.com/yourusername/bookworm.git
+   ```
 2. Open the project in Xcode:
-    ```sh
-    cd bookworm
-    open Bookworm.xcodeproj
-    ```
+   ```sh
+   cd bookworm
+   open Bookworm.xcodeproj
+   ```
 3. Build and run the app on your simulator or device.
 
 ## Usage
 
 1. **Add a Book**: Tap the "Add" button and fill in the book details.
-3. **Rate and Review**: After finishing a book, rate it and leave a review to help others discover great reads.
+2. **Rate and Review**: After finishing a book, rate it and leave a review to help others discover great reads.
 
 ## License
 
