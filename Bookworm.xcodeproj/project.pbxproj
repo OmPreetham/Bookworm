@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4D211B2C1630BA00800BA4 /* StringIsEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D211A2C1630BA00800BA4 /* StringIsEmpty.swift */; };
+		0E4D211D2C16344000800BA4 /* FormatCurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D211C2C16344000800BA4 /* FormatCurrentDate.swift */; };
 		0E817D6C2C120A470029C049 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E817D6B2C120A470029C049 /* Book.swift */; };
 		0E817D702C120B260029C049 /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E817D6F2C120B260029C049 /* AddNewView.swift */; };
 		0E817D722C1217990029C049 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E817D712C1217990029C049 /* RatingView.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E4D211A2C1630BA00800BA4 /* StringIsEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsEmpty.swift; sourceTree = "<group>"; };
+		0E4D211C2C16344000800BA4 /* FormatCurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatCurrentDate.swift; sourceTree = "<group>"; };
 		0E817D6B2C120A470029C049 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0E817D6F2C120B260029C049 /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
 		0E817D712C1217990029C049 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -72,8 +76,10 @@
 				0EA8DB9A2C134D4700E75191 /* DetailView.swift */,
 				0E817D732C121BFA0029C049 /* EmojiRatingView.swift */,
 				0E817D6F2C120B260029C049 /* AddNewView.swift */,
+				0E4D211A2C1630BA00800BA4 /* StringIsEmpty.swift */,
 				0E817D712C1217990029C049 /* RatingView.swift */,
 				0E817D6B2C120A470029C049 /* Book.swift */,
+				0E4D211C2C16344000800BA4 /* FormatCurrentDate.swift */,
 				0EA6BE5E2C1109AB00A28EB6 /* StudentsView.swift */,
 				0EA6BE5C2C1105DD00A28EB6 /* Student.swift */,
 				0EA6BE5A2C11024C00A28EB6 /* BindingView.swift */,
@@ -161,10 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4D211D2C16344000800BA4 /* FormatCurrentDate.swift in Sources */,
 				0EA6BE4F2C10FC6E00A28EB6 /* ContentView.swift in Sources */,
 				0E817D742C121BFA0029C049 /* EmojiRatingView.swift in Sources */,
 				0EA6BE4D2C10FC6E00A28EB6 /* BookwormApp.swift in Sources */,
 				0EA8DB9B2C134D4700E75191 /* DetailView.swift in Sources */,
+				0E4D211B2C1630BA00800BA4 /* StringIsEmpty.swift in Sources */,
 				0E817D6C2C120A470029C049 /* Book.swift in Sources */,
 				0E817D722C1217990029C049 /* RatingView.swift in Sources */,
 				0E817D702C120B260029C049 /* AddNewView.swift in Sources */,

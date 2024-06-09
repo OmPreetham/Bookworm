@@ -17,7 +17,7 @@ struct AddNewView: View {
     @State private var genre = "Fantasy"
     @State private var review = ""
     @State private var rating = 3
-   
+       
     let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
     
     var body: some View {
@@ -42,10 +42,11 @@ struct AddNewView: View {
                 
                 Section {
                     Button("Save") {
-                        let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating)
-                        modelContext.insert(newBook)
-                        dismiss()
+                        let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating, date: Date.now)
+                            modelContext.insert(newBook)
+                            dismiss()
                     }
+                    .disabled(title.isReallyEmpty || author.isReallyEmpty || review.isReallyEmpty)
                 }
             }
             .navigationTitle("Add New")
